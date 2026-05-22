@@ -28,3 +28,7 @@ Go drink milk 🥛
 ## Author 
 
 Made by Kevin while fighting JavaScript bugs 😎
+
+## Final Words
+
+If this app roasted you, blame JavaScript not me 😭

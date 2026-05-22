@@ -1,0 +1,37 @@
+* {
+    outline: 1px solid black;
+    /* text-align: center; */
+}
+
+body {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+#age {
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
