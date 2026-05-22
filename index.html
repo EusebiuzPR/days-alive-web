@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" rel="stylesheet">
 
     <title>Days Alive</title>
 </head>
 <body>
 
-<h1>Days you have been Alive!</h1>
+<h1>Days you have been Alive <span class="span">!</span></h1>
 
-<label>Time to calculate!</label><br><br>
+<label>Time to calculate <span class="span">!</span></label><br><br>
 <input 
         type="number"   
         min="0" 
@@ -28,6 +31,13 @@
 
         <p id="result"></p>
 
+
+        <!--PoPUP-->
+
+        <div id="popup">
+             <p>Ready to discover your days alive? 😄</p>
+             <button id="closeBtn">OK</button>
+        </div>
 
 
  <script src="script.js"></script>  
