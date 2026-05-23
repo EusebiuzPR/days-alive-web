@@ -1,7 +1,8 @@
 
-* {
+/* * {
     box-sizing: border-box;
-}
+    outline: 1px solid white;
+} */
 
 
 body {
@@ -89,10 +90,15 @@ label {
 
 footer {
     position: fixed;
-    bottom: 10px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     text-align: center;
     text-shadow: 2px 2px 5px white;
+       margin-top: 80px;
+       margin-bottom: 10px;
+       border-top: 0.001cm solid white;
+       padding-top: 10px;
 }
 
 
@@ -184,6 +190,11 @@ footer {
 
     #age {
         font-size: 16px;
+        color: black;
+    }
+
+    #age::placeholder {
+        color: black;
     }
 
     #result {
@@ -211,8 +222,34 @@ footer {
 
     #btn:active {
         transform: scale(0.95);
+        color: black;
+    }
+
+        footer {
+        margin-top: 120px;
     }
 
 
+}
+
+@media (max-height: 740px) {
+
+    footer {
+        margin-top: 120px;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    body {
+        height: 600px;
+        font-size: 8px;
+    }
+
+    footer {
+        margin-top: 120px;
+    }
 
 }
