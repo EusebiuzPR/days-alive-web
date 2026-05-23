@@ -3,7 +3,7 @@ const btn = document.getElementById("btn");
 
 btn.onclick = function () {
 
-     
+     document.getElementById("age").blur();
 
     let age = document.getElementById("age").value;
     console.log(age);
